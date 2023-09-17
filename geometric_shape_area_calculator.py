@@ -6,7 +6,7 @@ def main():
     circle_pi = math.pi # DO NOT MODIFY, this line of code is assigning the variable 'circle_pi' equal to Pi ~3.14
 
     # TODO: In terminal, print Welcome to the geometric shape area calculator!
-    print("Welcome to the geometric shape are calculator!")
+    print("Welcome to the geometric shape area calculator!")
     # User Options
     Circle = 1
     Rectangle = 2
@@ -70,7 +70,15 @@ def main():
         print(f"The area is: {area:.2f} square units.") # DO NOT MODIFY
 
     # TODO: Print a statement explaining each step required to find and complete your technical assignments.  Be specific. 
-    print("In order to submit technical assignments you must first ensure the problem is correct using python3 -m unittest and then use the following commands: git add, git commit, and git push. Once the file is confirmed on github, you must go back to canvas and submit the link to your github on the assignment in canvas.")
+    statement ="""Step 1: Find the assignment posted on Canvas/Courseworks
+        Step 2: Click on the link to create the repository on GitHub
+        Step 3: Clone the repository to your local machine via VS Code using git clone and pasting the link from GitHub
+        Step 4: Follow the instructions outline in the ReadMe file and within the working file in order to successfully complete the assignment
+        Step 5: Run the code using python3 file_name to ensure that the code runs as expected
+        Step 6: Run the unit test via python3 -m unittest and make sure it passes all the tests
+        Step 7: Use git add, git commit, and git push to push the assignment back to GitHub to be checked
+        Step 8: Copy the GitHub link and take a screenshot of the successful terminal output and submit the course via the assignment on Canvas/Courseworks"""
+    print(statement)
 
 if __name__ == "__main__": # DO NOT MODIFY
     main() # DO NOT MODIFY
