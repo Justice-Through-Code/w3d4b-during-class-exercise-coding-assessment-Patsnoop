@@ -70,14 +70,17 @@ def main():
         print(f"The area is: {area:.2f} square units.") # DO NOT MODIFY
 
     # TODO: Print a statement explaining each step required to find and complete your technical assignments.  Be specific. 
+
+    # This statement is to explain the process of completing techincal assignments from start to finish.
     statement ="""Step 1: Find the assignment posted on Canvas/Courseworks
         Step 2: Click on the link to create the repository on GitHub
         Step 3: Clone the repository to your local machine via VS Code using git clone and pasting the link from GitHub
-        Step 4: Follow the instructions outline in the ReadMe file and within the working file in order to successfully complete the assignment
-        Step 5: Run the code using python3 file_name to ensure that the code runs as expected
+        Step 4: Follow the instructions outlined in the ReadMe file and within the working file in order to successfully complete the assignment
+        Step 5: Run the code using python3 file_name.py to ensure that the code runs as expected
         Step 6: Run the unit test via python3 -m unittest and make sure it passes all the tests
         Step 7: Use git add, git commit, and git push to push the assignment back to GitHub to be checked
-        Step 8: Copy the GitHub link and take a screenshot of the successful terminal output and submit the course via the assignment on Canvas/Courseworks"""
+        Step 8: If all tests are passed, a green check mark will appear on the GitHub page.
+        Step 9: Copy the GitHub link and take a screenshot of the successful terminal output and submit the assessment via the assignment on Canvas/Courseworks"""
     print(statement)
 
 if __name__ == "__main__": # DO NOT MODIFY
